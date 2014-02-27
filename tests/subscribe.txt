@@ -1,0 +1,12 @@
+{
+  "Type" : "SubscriptionConfirmation",
+  "MessageId" : "eb738b3a-4836-442a-bb23-c32f25d75c3b",
+  "Token" : "2336412f37fb687f5d51e6e241d638b05c7dcb51dc0426a1447dcfd8b95835c888f53143d0bd81db9de24b594bc9e11b8b8930a3281a0265ca56349ca1e3335c7678c882c400dc8a8d84850c5ad6de6800f200953278862c1ea3a12acd15c2d0c7d36ea8a855c8d5365eafa4880ecee0",
+  "TopicArn" : "arn:aws:sns:sa-east-1:987800220599:Root",
+  "Message" : "You have chosen to subscribe to the topic arn:aws:sns:sa-east-1:987800220599:Root.\nTo confirm the subscription, visit the SubscribeURL included in this message.",
+  "SubscribeURL" : "http://requestb.in/r2lpvjr2",
+  "Timestamp" : "2014-02-27T15:44:52.187Z",
+  "SignatureVersion" : "1",
+  "Signature" : "RFfl3px2wUCvT20pi1vhimEV7TijjRmBz8nTsgo9x3LRA3aazn5birrl1Gqfbp/Rjk4y0Jqqsyy9Ie0/vNGMqPShl3Tw2z/SbKLCrwCqGV9xrCnHWk8B0ZnsVHI/BmeI/PudKF20QYxTe0pvL7I8NCabSLM4Jq0Ewo09eHBW+f/QBKjg6/4wJWzAqfOp5v+Dq2jSwh83DPANcdPcHTAAaCyW/zh3dxkOsNTT6e2k8sgv35WoNCI3wyRvLSKrleL9/ex2k23LeYXk+LQCOYp5Bq+TwoHyadMpQpzVaXpX/vSgpdMB0wYQCSJZgnl8/5j0i1ia7Oex1GjuuqvIBjBJMA==",
+  "SigningCertURL" : "https://sns.sa-east-1.amazonaws.com/SimpleNotificationService-e372f8ca30337fdb084e8ac449342c77.pem"
+}
