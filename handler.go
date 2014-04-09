@@ -35,7 +35,7 @@ func hookHandler(w http.ResponseWriter, r *http.Request) {
 	switch snsMsg.Type {
 	case sns.Notification:
 		payload := slack.NewPayload(
-			vars["channel"],
+			"#"+vars["channel"],
 			vars["username"],
 			vars["icon_emoji"],
 			snsMsg.String(),
