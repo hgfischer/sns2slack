@@ -1,0 +1,1 @@
+web: ./sns2slack
