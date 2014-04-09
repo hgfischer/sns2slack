@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gorilla/mux"
 	"log/syslog"
 	"net/http"
+	"os"
 )
 
 var (
@@ -22,6 +24,11 @@ func main() {
 	router.HandleFunc(HookHandlerUrl, hookHandler).Methods("POST")
 	http.Handle("/", router)
 
-	log.Info("Listening on :8080...")
-	http.ListenAndServe(":8080", nil)
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
+	log.Info(fmt.Sprintf("Listening on :%v...", port))
+	http.ListenAndServe(":"+port, nil)
 }
